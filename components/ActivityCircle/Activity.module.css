@@ -1,0 +1,36 @@
+.skill {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner {
+    background: white;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    fill: none;
+    stroke: #ffc9b3;
+    stroke-width: 30px;
+}
+.svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

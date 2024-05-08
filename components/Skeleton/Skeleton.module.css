@@ -1,0 +1,19 @@
+@keyframes wave {
+  0% {
+    background-color: #e5e7eb;
+  }
+  50% {
+    background-color: #d4d5d7;
+  }
+  100% {
+    background-color: #e5e7eb;
+  }
+}
+
+.animation {
+  background-color: #e5e7eb;
+  animation-name: wave;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
